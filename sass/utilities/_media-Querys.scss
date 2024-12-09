@@ -1,0 +1,13 @@
+@media(width <= 800px){
+    .logo{
+        display: none;
+    }
+}
+
+@media(width <= 800px){
+    #gridlayout{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}

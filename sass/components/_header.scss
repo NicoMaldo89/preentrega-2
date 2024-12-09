@@ -1,0 +1,43 @@
+header {
+    background-color: rgb(187, 17, 199);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 50px;
+    height: 8rem;
+    width: 100%;
+}
+
+.logo{
+    width: 200px;
+    height: 100%;
+}
+
+.image-container{
+    height: 100%;
+    margin: 0;
+}
+
+.navegador{
+    bottom: rgb(50, 50, 80);
+}
+
+.navegador{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0px 15px;
+    justify-content: space-evenly;
+}
+
+.navegador li{
+    margin: 0 15px;
+}
+
+.navegador a{
+    block-size: 2px;
+    color: beige;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+}
