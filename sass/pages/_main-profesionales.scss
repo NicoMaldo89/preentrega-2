@@ -1,11 +1,11 @@
-@import "../utilities/mixin.scss";
+@use "../utilities/mixin" as *;
 
 #gridlayout{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
-
+ 
 .tarjeta{
     @include flex (column, center, center, 20px)
 }
