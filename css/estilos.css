@@ -121,6 +121,7 @@ header {
   border: 1px solid beige;
   font-size: 18px;
   font-weight: bold;
+  z-index: 100;
 }
 
 .logo {
@@ -181,6 +182,7 @@ header {
   transition-duration: 1s;
   transition-timing-function: ease-out;
   transition-delay: 5ms;
+  z-index: 1;
 }
 
 .tarjeta:hover {

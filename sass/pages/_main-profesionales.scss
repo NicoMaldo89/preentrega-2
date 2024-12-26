@@ -18,6 +18,7 @@
     transition-duration: 1s;
     transition-timing-function: ease-out;
     transition-delay: 5ms;
+    z-index: 1;
 }
 .tarjeta:hover{
     transform: translate(-9px, -20px) scale(1);
