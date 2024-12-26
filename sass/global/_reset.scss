@@ -25,6 +25,7 @@ h2{
     background-size: cover;
     width: 100%;
     min-height: 100vh;
+    margin: 0;
 }
 
 .titulo{
@@ -32,7 +33,7 @@ h2{
     text-align: center;
     padding: 20px;
     margin: 15px;
-    border: 1px solid black;
+    border: 1px solid #000;
     color: beige;
 }
 
@@ -44,5 +45,6 @@ main h2{
     border: 2px solid #f5f5dc;
     color: #f5f5dc;
     border-radius: 20px 15px;
-    text-shadow: 3px 0px 3px black;
+    text-shadow: 3px 0px 3px #000;
+    text-decoration: none;
 }

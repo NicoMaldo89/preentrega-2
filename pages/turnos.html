@@ -13,77 +13,86 @@
 
     <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon.ico">
 
-    <title>Document</title>
+    <title>Centro Medico</title>
 </head>
 
 <body>
-    <header>
-        <figure class="image-container">
-            <a href="../index.html">
-                <img src="../img/Captura-de-pantalla.png" alt="logo centro medico" class="logo">
-            </a>
-        </figure>
-        <nav>
-            <ul class="navegador">
-                <li><a href="../index.html">INICIO</a></li>
-                <li><a href="../pages/profesionales.html">PROFESIONALES</a></li>
-                <li><a href="../pages/obrasSociales.html">OBRAS SOCIALES</a></li>
-                <li><a href="../pages/contacto.html">CONTACTO</a></li>
-                <li><a href="#">TURNOS</a></li>
-            </ul>
-
-        </nav>
-    </header>
-    <main id="parallax">
-        <h2 class="titulo">TURNOS</h2>
-        <section>
-            <div class="contenedor">
-            <form action="" method="" class="turnos">
-                <label for="">Nombre:</label>
-                <input type="text" name="nombre" id="" required>
-                <label for="">Apellido:</label>
-                <input type="text" name="apellido" id="" required>
-                <label for="">Documento:</label>
-                <input type="text" name="document" id="" required>
-                <label for="">Direción:</label>
-                <input type="text" name="direccion" id="" required>
-                <label for="">Teléfono:</label>
-                <input type="text" name="telefono" id="" required>
-                <label for="">Obra Social:</label>
-                <input type="text" name="obrasocial" id="" required>
-                <label for="">Especialidad:</label>
-                <select name="especialidad" id="" required>
-                    <option value="">Clínica</option>
-                    <option value="">Pediatría</option>
-                    <option value="">Oftalmología</option>
-                    <option value="">Traumatología</option>
-                    <option value="">Laboratorio</option>
-                    <option value="">Ecografía</option>
-                </select>
-                <label for="">Fecha:</label>
-                <input type="date" name="fecha" id="" required>
-                <input type="submit">
-            </form>
-        </div>
-        </section>
-    </main>
+    <div id="parallax">
+        <header>
+            <figure class="image-container">
+                <a href="../index.html">
+                    <img src="../img/Captura-de-pantalla.png" alt="logo centro medico" class="logo">
+                </a>
+            </figure>
+            <nav>
+                <ul class="navegador">
+                    <li><a href="../index.html">INICIO</a></li>
+                    <li><a href="../pages/profesionales.html">PROFESIONALES</a></li>
+                    <li><a href="../pages/obrasSociales.html">OBRAS SOCIALES</a></li>
+                    <li><a href="../pages/contacto.html">CONTACTO</a></li>
+                    <li><a href="#">TURNOS</a></li>
+                </ul>
+    
+            </nav>
+        </header>
+        <main class="mainturnos">
+            <h1 class="titulo">TURNOS</h1>
+            <section>
+                <div class="contenedor">
+                    <form action="" method="" class="form">
+                        <label for="nombre">Nombre:
+                            <input type="text" name="nombre" id="nombre" required>
+                                </label>
+                            <label for="apellido">Apellido:
+                                <input type="text" name="apellido" id="apellido" required>
+                            </label>
+                            <label for="documento">Documento:
+                                <input type="text" name="document" id="documento" required>
+                            </label>
+                            <label for="direccion">Direción:
+                                <input type="text" name="direccion" id="direccion" required>
+                            </label>
+                            <label for="telefono">Teléfono:
+                                <input type="text" name="telefono" id="telefono" required>
+                            </label>
+                            <label for="obrasocial">Obra Social:
+                                <input type="text" name="obrasocial" id="obrasocial" required>
+                            </label>
+                            <label for="fecha">Fecha:
+                                <input type="date" name="fecha" id="fecha" required>
+                            </label>
+                            <label for="especialidad" class="select">Especialidad:
+                                <select name="especialidad" id="especialidad" required>
+                                    <option value="">Clínica</option>
+                                    <option value="">Pediatría</option>
+                                    <option value="">Oftalmología</option>
+                                    <option value="">Traumatología</option>
+                                    <option value="">Laboratorio</option>
+                                    <option value="">Ecografía</option>
+                                </select>
+                            </label>
+                                <label for="">
+                                <input type="submit" class="enviar">
+                            </label>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+    
     <footer>
-        <div>
-            <!-- poner mail, telefono y dirección-->
-        </div>
         <div>
             <a href="https://twitter.com" target="_blank">
                 <i class="fa-solid fa-x"></i>
-
             </a>
             <a href="https://www.instagram.com/" target="_blank">
                 <i class="fa-brands fa-instagram"></i>
-
             </a>
             <a href="https://www.facebook.com/" target="_blank">
                 <i class="fa-brands fa-facebook"></i>
-
             </a>
+            <a href="mailto:zeballossalud@gmail.com" target="_blank">zeballossalud@gmail.com</a>
+            <a href="tel:3424018234" target="_blank">Tel:3424018234</a>
         </div>
     </footer>
 

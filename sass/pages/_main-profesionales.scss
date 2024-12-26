@@ -13,3 +13,20 @@
     box-shadow: 0 0 40px 0 #000f;
 }
 
+.tarjeta{
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transition-delay: 5ms;
+}
+.tarjeta:hover{
+    transform: translate(-9px, -20px) scale(1);
+    color: antiquewhite;
+}
+
+.tarjeta{
+    p{
+        white-space: pre;
+        text-align: left;
+    }
+}
