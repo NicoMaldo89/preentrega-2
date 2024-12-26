@@ -1,13 +1,22 @@
-@media(width <= 800px){
+@media(width <= 1200px){
     .logo{
         display: none;
     }
-}
-
-@media(width <= 800px){
-    #gridlayout{
+    .gridlayout{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .centro{
         display: flex;
         flex-direction: column;
     }
-    
+    .pagContacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .estado{
+        display: none;
+    }
 }

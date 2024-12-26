@@ -63,6 +63,7 @@ h1 {
   align-items: flex-start;
   list-style: none;
   margin: 50px 10px 0px 10px;
+  min-height: 100vh;
 }
 
 .centro div {
@@ -94,17 +95,6 @@ h3 {
   position: relative;
 }
 
-@media (width <= 800px) {
-  .logo {
-    display: none;
-  }
-}
-@media (width <= 800px) {
-  #gridlayout {
-    display: flex;
-    flex-direction: column;
-  }
-}
 footer {
   text-align: center;
   background-color: rgb(187, 17, 199);
@@ -143,11 +133,6 @@ header {
 }
 
 .navegador {
-  bottom: rgb(50, 50, 80);
-  margin: 0;
-}
-
-.navegador {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -172,7 +157,7 @@ header {
   color: black;
 }
 
-#gridlayout {
+.gridlayout {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -314,6 +299,29 @@ select {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
+}
+
+@media (width <= 1200px) {
+  .logo {
+    display: none;
+  }
+  .gridlayout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .centro {
+    display: flex;
+    flex-direction: column;
+  }
+  .pagContacto {
+    display: flex;
+    flex-direction: column;
+  }
+  .estado {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=estilos.css.map */
