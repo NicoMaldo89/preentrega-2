@@ -11,6 +11,11 @@
     .centro{
         display: flex;
         flex-direction: column;
+        padding: 1rem;
+
+        div {
+            width: 100%;
+        }
     }
     .pagContacto{
         display: flex;
